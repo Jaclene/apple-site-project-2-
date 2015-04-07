@@ -1,0 +1,26 @@
+body {
+    width: 1440px;
+    margin: 0 auto;
+}
+div {
+    display: inline-block;
+    width: 477px;
+    height: 282px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+div:nth-of-type(1) {
+    background-image: url('tile1.jpg');
+}
+div:nth-of-type(2) {
+    background-image: url('tile2.jpg');
+}
+div:nth-of-type(3) {
+    background-image: url('tile3.jpg');
+}
+
+div img {
+    position: absolute;
+    top: 186px;
+}
